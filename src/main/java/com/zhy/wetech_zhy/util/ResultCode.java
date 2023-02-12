@@ -1,4 +1,4 @@
-package com.cy.store.util;
+package com.zhy.wetech_zhy.util;
 
 /**
  * 公共的返回码
