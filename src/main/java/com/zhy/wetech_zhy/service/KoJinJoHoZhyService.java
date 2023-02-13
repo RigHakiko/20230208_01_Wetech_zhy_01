@@ -13,5 +13,5 @@ import com.zhy.wetech_zhy.entity.KoJinJoHoZhy;
 public interface KoJinJoHoZhyService
 //        extends IService<KoJinJoHoZhy>
 {
-    Boolean save(KoJinJoHoZhy koJinJoHoZhy);
+    int save(KoJinJoHoZhy koJinJoHoZhy);
 }

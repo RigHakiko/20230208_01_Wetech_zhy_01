@@ -30,6 +30,7 @@ public class KoJinJoHoZhyController {
 //            如果成功，将状态设置为200
             //成功した場合、ステータスを200に設定する
             result.setState(200);
+            System.out.println("success");
         } catch (Exception e){
 //            如果失败, 将状态设置为4000
             //失敗した場合は、ステータスを4000に設定。
@@ -37,6 +38,7 @@ public class KoJinJoHoZhyController {
 //              失败情况写入错误信息
             //エラーメッセージの書き込み
             result.setMessage("异常发生");
+            System.out.println("fail");
         }
         return result;
     }

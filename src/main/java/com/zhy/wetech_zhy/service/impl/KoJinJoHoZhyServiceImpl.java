@@ -21,7 +21,7 @@ public class KoJinJoHoZhyServiceImpl implements KoJinJoHoZhyService {
     @Autowired
     private KoJinJoHoZhyMapper koJinJoHoZhyMapper;
     @Override
-    public Boolean save(KoJinJoHoZhy koJinJoHoZhy) {
+    public int save(KoJinJoHoZhy koJinJoHoZhy) {
         return koJinJoHoZhyMapper.save(koJinJoHoZhy);
     }
 }

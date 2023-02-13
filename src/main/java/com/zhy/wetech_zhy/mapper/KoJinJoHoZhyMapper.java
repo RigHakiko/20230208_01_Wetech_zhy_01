@@ -19,5 +19,5 @@ import org.springframework.stereotype.Repository;
 public interface KoJinJoHoZhyMapper
 //        extends BaseMapper<KoJinJoHoZhy>
 {
-    Boolean save(KoJinJoHoZhy koJinJoHoZhy);
+    int save(KoJinJoHoZhy koJinJoHoZhy);
 }
