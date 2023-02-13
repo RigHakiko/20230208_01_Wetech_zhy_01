@@ -11,6 +11,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author ZHY
  * @since 2023-02-12
  */
-public interface IKoJinJoHoZhyService extends IService<KoJinJoHoZhy> {
+public interface IKoJinJoHoZhyService
+//        extends IService<KoJinJoHoZhy>
+{
 
 }
