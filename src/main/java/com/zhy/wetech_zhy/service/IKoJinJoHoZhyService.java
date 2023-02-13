@@ -14,5 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface IKoJinJoHoZhyService
 //        extends IService<KoJinJoHoZhy>
 {
-
+    Boolean save(KoJinJoHoZhy);
 }
