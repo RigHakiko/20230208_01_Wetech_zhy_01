@@ -15,6 +15,8 @@ import org.springframework.stereotype.Repository;
  */
 @Mapper
 @Repository
-public interface KoJinJoHoZhyMapper extends BaseMapper<KoJinJoHoZhy> {
+public interface KoJinJoHoZhyMapper
+//        extends BaseMapper<KoJinJoHoZhy>
+{
 
 }
