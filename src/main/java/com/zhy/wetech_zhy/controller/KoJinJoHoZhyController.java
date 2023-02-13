@@ -20,13 +20,13 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/ko-jin-jo-ho-zhy")
 public class KoJinJoHoZhyController {
     @Autowired
-    public KoJinJoHoZhyService iKoJinJoHoZhyService;
+    public KoJinJoHoZhyService koJinJoHoZhyService;
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     @CrossOrigin
     public JsonResult save(@RequestBody KoJinJoHoZhy koJinJoHoZhy){
         JsonResult<Void> result = new JsonResult<>();
         try {
-            iKoJinJoHoZhyService.save(koJinJoHoZhy);
+            koJinJoHoZhyService.save(koJinJoHoZhy);
 //            如果成功，将状态设置为200
             //成功した場合、ステータスを200に設定する
             result.setState(200);
