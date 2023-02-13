@@ -41,7 +41,7 @@ public class KoJinJoHoZhyController {
 //            result.setMessage("异常发生");
 //            System.out.println("fail");
 //        }
-
+        koJinJoHoZhyService.save(koJinJoHoZhy);
         return result;
     }
 }
