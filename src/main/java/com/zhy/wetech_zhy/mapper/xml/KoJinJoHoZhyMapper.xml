@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhy.wetech_zhy.mapper.KoJinJoHoZhyMapper">
-
+    <insert id="save">
+        insert into KoJinJoHoZhy (CP_NameSei,
+                                    CP_NameMei,
+                                    CP_NameSeiKana,
+                                    CP_NameMeiKana,
+                                    CU_AlphLastname,
+                                    CU_AlphFirstname,
+                                    CP_Country,
+                                    CP_BirthDate,
+                                    CP_Sex,
+                                    CP_Denwa,
+                                    CP_Phone,
+                                    CP_ShokugyoCode,
+                                    CP_KinmusakiNameÏ
+                                  ) values (#{cpNamesei},
+                                            #{cpNamemei},
+                                            #{cpNameseikana},
+                                            #{cpNamemeikana},
+                                            #{cuAlphlastname},
+                                            #{cuAlphfirstname},
+                                            #{cpCountry},
+                                            #{cpBirthdate},
+                                            #{cpSex},
+                                            #{cpDenwa},
+                                            #{cpPhone},
+                                            #{cpShokugyocode},
+                                            #{cpKinmusakiname});
+    </insert>
 </mapper>

@@ -2,7 +2,7 @@ package com.zhy.wetech_zhy.controller;
 
 
 import com.zhy.wetech_zhy.entity.KoJinJoHoZhy;
-import com.zhy.wetech_zhy.service.IKoJinJoHoZhyService;
+import com.zhy.wetech_zhy.service.KoJinJoHoZhyService;
 import com.zhy.wetech_zhy.util.JsonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/ko-jin-jo-ho-zhy")
 public class KoJinJoHoZhyController {
     @Autowired
-    public IKoJinJoHoZhyService iKoJinJoHoZhyService;
+    public KoJinJoHoZhyService iKoJinJoHoZhyService;
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     @CrossOrigin
     public JsonResult save(@RequestBody KoJinJoHoZhy koJinJoHoZhy){

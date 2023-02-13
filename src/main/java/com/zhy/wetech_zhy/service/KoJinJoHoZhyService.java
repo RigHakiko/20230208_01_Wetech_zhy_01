@@ -1,7 +1,6 @@
 package com.zhy.wetech_zhy.service;
 
 import com.zhy.wetech_zhy.entity.KoJinJoHoZhy;
-import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
@@ -11,8 +10,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author ZHY
  * @since 2023-02-12
  */
-public interface IKoJinJoHoZhyService
+public interface KoJinJoHoZhyService
 //        extends IService<KoJinJoHoZhy>
 {
-    Boolean save(KoJinJoHoZhy);
+    Boolean save(KoJinJoHoZhy koJinJoHoZhy);
 }
